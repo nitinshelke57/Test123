@@ -1,0 +1,478 @@
+{
+  "components": [
+    {
+      "salesforce_destination_component": {
+        "id": "component-130643",
+        "name": "tgt_sf_territory_assoc",
+        "alias": "tgt_sf_territory_assoc",
+        "xy": [
+          1008,
+          1036
+        ],
+        "connection": {
+          "id": 10791,
+          "type": "salesforce",
+          "name": "conn_sf_intltgt"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+
+          ]
+        },
+        "cloud_storage_connection_id": "10791",
+        "object_name": "ObjectTerritory2Association",
+        "operation_type": "insert",
+        "id_field": "",
+        "batch_size": 9000,
+        "max_errors": 10000,
+        "column_mappings": [
+          {
+            "column_name": "ObjectId",
+            "field_name": "INTL_Account_Id",
+            "field_type": "REFERENCE",
+            "relationship_name": "Object",
+            "relationship_field_type": "ID",
+            "is_reference_key": false,
+            "relationship_field_name": "Id"
+          },
+          {
+            "column_name": "Territory2Id",
+            "field_name": "intl_terri_id",
+            "field_type": "REFERENCE",
+            "relationship_name": "Territory2",
+            "relationship_field_type": "ID",
+            "is_reference_key": false,
+            "relationship_field_name": "Id"
+          },
+          {
+            "column_name": "AssociationCause",
+            "field_name": "AssociationCause",
+            "field_type": "PICKLIST"
+          }
+        ],
+        "database_connection_id": "10791"
+      }
+    },
+    {
+      "database_source_component": {
+        "id": "component-f3ceb4",
+        "name": "src_db_account",
+        "alias": "src_db_account",
+        "xy": [
+          476,
+          168
+        ],
+        "connection": {
+          "id": 11804,
+          "type": "herokupostgres",
+          "name": "conn_heroku_postgres"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "sfid",
+              "alias": "INTL_Account_Id",
+              "data_type": "string"
+            },
+            {
+              "name": "us_org_id__c",
+              "alias": "US_Account_Id",
+              "data_type": "string"
+            }
+          ]
+        },
+        "database_connection_id": "11804",
+        "access_mode": "table",
+        "schema_name": "intlsalesforceorg",
+        "table_name": "account",
+        "where_clause": "",
+        "query": "",
+        "split_by_column_name": "",
+        "parallel": 1,
+        "before_action": "none"
+      }
+    },
+    {
+      "join_component": {
+        "id": "component-f646da",
+        "name": "jnr_acct_map",
+        "alias": "jnr_acct_map",
+        "xy": [
+          672,
+          420
+        ],
+        "join_type": "inner",
+        "optimization_type": "default",
+        "relations": [
+          {
+            "fields": [
+              "US_Account_Id"
+            ]
+          },
+          {
+            "fields": [
+              "ObjectId"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "database_source_component": {
+        "id": "component-aea9d2",
+        "name": "src_db_object_territory_assoc",
+        "alias": "src_db_object_territory_assoc",
+        "xy": [
+          924,
+          168
+        ],
+        "connection": {
+          "id": 11804,
+          "type": "herokupostgres",
+          "name": "conn_heroku_postgres"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "SobjectType",
+              "alias": "SobjectType",
+              "data_type": "string"
+            },
+            {
+              "name": "LastModifiedDate",
+              "alias": "LastModifiedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "IsDeleted",
+              "alias": "IsDeleted",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ObjectId",
+              "alias": "ObjectId",
+              "data_type": "string"
+            },
+            {
+              "name": "Territory2Id",
+              "alias": "Territory2Id",
+              "data_type": "string"
+            },
+            {
+              "name": "Id",
+              "alias": "Id",
+              "data_type": "string"
+            },
+            {
+              "name": "AssociationCause",
+              "alias": "AssociationCause",
+              "data_type": "string"
+            },
+            {
+              "name": "LastModifiedById",
+              "alias": "LastModifiedById",
+              "data_type": "string"
+            },
+            {
+              "name": "SystemModstamp",
+              "alias": "SystemModstamp",
+              "data_type": "datetime"
+            }
+          ]
+        },
+        "database_connection_id": "11804",
+        "access_mode": "table",
+        "schema_name": "ussalesforceorg",
+        "table_name": "object_territory2_association_raw",
+        "where_clause": "",
+        "query": "",
+        "split_by_column_name": "",
+        "parallel": 1,
+        "before_action": "none"
+      }
+    },
+    {
+      "salesforce_source_component": {
+        "id": "component-76cf6f",
+        "name": "us_salesforce_terri2",
+        "alias": "us_salesforce_terri2",
+        "xy": [
+          1064,
+          392
+        ],
+        "connection": {
+          "id": 10790,
+          "type": "salesforce"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "Id",
+              "alias": "us_territory2id",
+              "data_type": "string"
+            },
+            {
+              "name": "DeveloperName",
+              "alias": "DeveloperName",
+              "data_type": "string"
+            }
+          ]
+        },
+        "cloud_storage_connection_id": "10790",
+        "object_name": "Territory2",
+        "where_clause": "",
+        "source_action": "query",
+        "access_mode": "object",
+        "query": ""
+      }
+    },
+    {
+      "join_component": {
+        "id": "component-36d15a",
+        "name": "join_2",
+        "alias": "join_2",
+        "xy": [
+          868,
+          588
+        ],
+        "join_type": "inner",
+        "optimization_type": "default",
+        "relations": [
+          {
+            "fields": [
+              "Territory2Id"
+            ]
+          },
+          {
+            "fields": [
+              "us_territory2id"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "salesforce_source_component": {
+        "id": "component-3c9f06",
+        "name": "sf_intl_tgt",
+        "alias": "sf_intl_tgt",
+        "xy": [
+          448,
+          588
+        ],
+        "connection": {
+          "id": 10791,
+          "type": "salesforce",
+          "name": "conn_sf_intltgt"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "Id",
+              "alias": "intl_terri_id",
+              "data_type": "string"
+            },
+            {
+              "name": "DeveloperName",
+              "alias": "intl_DeveloperName",
+              "data_type": "string"
+            }
+          ]
+        },
+        "cloud_storage_connection_id": "10791",
+        "object_name": "Territory2",
+        "where_clause": "",
+        "source_action": "query",
+        "access_mode": "object",
+        "query": ""
+      }
+    },
+    {
+      "join_component": {
+        "id": "component-d3ba25",
+        "name": "join_4",
+        "alias": "join_4",
+        "xy": [
+          644,
+          784
+        ],
+        "join_type": "inner",
+        "optimization_type": "default",
+        "relations": [
+          {
+            "fields": [
+              "intl_DeveloperName"
+            ]
+          },
+          {
+            "fields": [
+              "DeveloperName"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "select_component": {
+        "id": "component-38ffaf",
+        "name": "expr_object2_terr_assoc",
+        "alias": "expr_object2_terr_assoc",
+        "xy": [
+          1148,
+          840
+        ],
+        "fields": [
+          {
+            "name": "intl_terri_id",
+            "projected_name": "intl_terri_id"
+          },
+          {
+            "name": "intl_DeveloperName",
+            "projected_name": "intl_DeveloperName"
+          },
+          {
+            "name": "INTL_Account_Id",
+            "projected_name": "INTL_Account_Id"
+          },
+          {
+            "name": "US_Account_Id",
+            "projected_name": "US_Account_Id"
+          },
+          {
+            "name": "SobjectType",
+            "projected_name": "SobjectType"
+          },
+          {
+            "name": "LastModifiedDate",
+            "projected_name": "LastModifiedDate"
+          },
+          {
+            "name": "IsDeleted",
+            "projected_name": "IsDeleted"
+          },
+          {
+            "name": "ObjectId",
+            "projected_name": "ObjectId"
+          },
+          {
+            "name": "Territory2Id",
+            "projected_name": "Territory2Id"
+          },
+          {
+            "name": "Id",
+            "projected_name": "Id"
+          },
+          {
+            "name": "AssociationCause",
+            "projected_name": "AssociationCause"
+          },
+          {
+            "name": "LastModifiedById",
+            "projected_name": "LastModifiedById"
+          },
+          {
+            "name": "SystemModstamp",
+            "projected_name": "SystemModstamp"
+          },
+          {
+            "name": "us_territory2id",
+            "projected_name": "us_territory2id"
+          },
+          {
+            "name": "DeveloperName",
+            "projected_name": "DeveloperName"
+          },
+          {
+            "name": "'USD'",
+            "projected_name": "O_Currency_ISO_Code"
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-f0c890",
+      "label": "edge-f0c890",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-f3ceb4",
+      "target": "component-f646da"
+    },
+    {
+      "id": "edge-32c53f",
+      "label": "edge-32c53f",
+      "order": 1,
+      "source_index": 0,
+      "source": "component-aea9d2",
+      "target": "component-f646da"
+    },
+    {
+      "id": "edge-ad3081",
+      "label": "edge-ad3081",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-f646da",
+      "target": "component-36d15a"
+    },
+    {
+      "id": "edge-045fe3",
+      "label": "edge-045fe3",
+      "order": 1,
+      "source_index": 0,
+      "source": "component-76cf6f",
+      "target": "component-36d15a"
+    },
+    {
+      "id": "edge-ddd944",
+      "label": "edge-ddd944",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-3c9f06",
+      "target": "component-d3ba25"
+    },
+    {
+      "id": "edge-b0d5b3",
+      "label": "edge-b0d5b3",
+      "order": 1,
+      "source_index": 0,
+      "source": "component-36d15a",
+      "target": "component-d3ba25"
+    },
+    {
+      "id": "edge-32bd72",
+      "label": "edge-32bd72",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-d3ba25",
+      "target": "component-38ffaf"
+    },
+    {
+      "id": "edge-007c81",
+      "label": "edge-007c81",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-38ffaf",
+      "target": "component-130643"
+    }
+  ],
+  "variables": {
+    "_EXEC_TYPE": "'mapreduce'",
+    "_MAP_TASK_TIMEOUT": "1800 * 1000",
+    "_HTTP_REQUEST_MAX_RETRIES": "1"
+  },
+  "secret_variables": {
+  },
+  "metadata": {
+    "name": "pkg_object_territory2_assoc_load",
+    "description": "",
+    "flow_type": "dataflow",
+    "version": "1.21",
+    "version_description": ""
+  }
+}

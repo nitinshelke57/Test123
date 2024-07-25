@@ -1,0 +1,386 @@
+{
+  "components": [
+    {
+      "salesforce_destination_component": {
+        "id": "component-130643",
+        "name": "tgt_sf_territory_assoc",
+        "alias": "tgt_sf_territory_assoc",
+        "xy": [
+          924,
+          812
+        ],
+        "connection": {
+          "id": 10791,
+          "type": "salesforce",
+          "name": "conn_sf_intltgt"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+
+          ]
+        },
+        "cloud_storage_connection_id": "10791",
+        "object_name": "UserTerritory2Association",
+        "operation_type": "insert",
+        "id_field": "",
+        "batch_size": 8000,
+        "max_errors": 0,
+        "column_mappings": [
+          {
+            "column_name": "UserId",
+            "field_name": "INTL_User_Id",
+            "field_type": "REFERENCE",
+            "relationship_name": "User",
+            "relationship_field_type": "ID",
+            "is_reference_key": false,
+            "relationship_field_name": "Id"
+          },
+          {
+            "column_name": "RoleInTerritory2",
+            "field_name": "RoleInTerritory2",
+            "field_type": "PICKLIST"
+          },
+          {
+            "column_name": "Territory2Id",
+            "field_name": "intl_terr_id",
+            "field_type": "REFERENCE",
+            "relationship_name": "Territory2",
+            "relationship_field_type": "ID",
+            "is_reference_key": false,
+            "relationship_field_name": "Id"
+          }
+        ],
+        "database_connection_id": "10791"
+      }
+    },
+    {
+      "database_source_component": {
+        "id": "component-f3ceb4",
+        "name": "src_db_user",
+        "alias": "src_db_user",
+        "xy": [
+          476,
+          168
+        ],
+        "connection": {
+          "id": 11804,
+          "type": "herokupostgres",
+          "name": "conn_heroku_postgres"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "us_id",
+              "alias": "US_User_Id",
+              "data_type": "string"
+            },
+            {
+              "name": "int_id",
+              "alias": "INTL_User_Id",
+              "data_type": "string"
+            }
+          ]
+        },
+        "database_connection_id": "11804",
+        "access_mode": "table",
+        "schema_name": "ussalesforceorg",
+        "table_name": "user_map",
+        "where_clause": "",
+        "query": "",
+        "split_by_column_name": "",
+        "parallel": 1,
+        "before_action": "none"
+      }
+    },
+    {
+      "join_component": {
+        "id": "component-f646da",
+        "name": "jnr_user_map",
+        "alias": "jnr_user_map",
+        "xy": [
+          672,
+          420
+        ],
+        "join_type": "inner",
+        "optimization_type": "default",
+        "relations": [
+          {
+            "fields": [
+              "US_User_Id"
+            ]
+          },
+          {
+            "fields": [
+              "UserId"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "join_component": {
+        "id": "component-38b3e5",
+        "name": "jnr_territory",
+        "alias": "jnr_territory",
+        "xy": [
+          504,
+          616
+        ],
+        "join_type": "inner",
+        "optimization_type": "default",
+        "relations": [
+          {
+            "fields": [
+              "Territory2Id"
+            ]
+          },
+          {
+            "fields": [
+              "us_terr_id"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "database_source_component": {
+        "id": "component-24461c",
+        "name": "src_db_user_territory_assoc",
+        "alias": "src_db_user_territory_assoc",
+        "xy": [
+          924,
+          168
+        ],
+        "connection": {
+          "id": 11804,
+          "type": "herokupostgres",
+          "name": "conn_heroku_postgres"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "LastModifiedDate",
+              "alias": "LastModifiedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "UserId",
+              "alias": "UserId",
+              "data_type": "string"
+            },
+            {
+              "name": "IsActive",
+              "alias": "IsActive",
+              "data_type": "boolean"
+            },
+            {
+              "name": "RoleInTerritory2",
+              "alias": "RoleInTerritory2",
+              "data_type": "string"
+            },
+            {
+              "name": "Territory2Id",
+              "alias": "Territory2Id",
+              "data_type": "string"
+            },
+            {
+              "name": "Id",
+              "alias": "Id",
+              "data_type": "string"
+            },
+            {
+              "name": "LastModifiedById",
+              "alias": "LastModifiedById",
+              "data_type": "string"
+            },
+            {
+              "name": "SystemModstamp",
+              "alias": "SystemModstamp",
+              "data_type": "datetime"
+            }
+          ]
+        },
+        "database_connection_id": "11804",
+        "access_mode": "table",
+        "schema_name": "ussalesforceorg",
+        "table_name": "user_territory2_association_raw",
+        "where_clause": "",
+        "query": "",
+        "split_by_column_name": "",
+        "parallel": 1,
+        "before_action": "none"
+      }
+    },
+    {
+      "salesforce_source_component": {
+        "id": "component-df4aa7",
+        "name": "us_sf_territory",
+        "alias": "us_sf_territory",
+        "xy": [
+          308,
+          420
+        ],
+        "connection": {
+          "id": 10792,
+          "type": "salesforce",
+          "name": "datamigration@zoetis.com.usuat"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "Id",
+              "alias": "us_terr_id",
+              "data_type": "string"
+            },
+            {
+              "name": "DeveloperName",
+              "alias": "DeveloperName",
+              "data_type": "string"
+            }
+          ]
+        },
+        "cloud_storage_connection_id": "10792",
+        "object_name": "Territory2",
+        "where_clause": "",
+        "source_action": "query",
+        "access_mode": "object",
+        "query": ""
+      }
+    },
+    {
+      "salesforce_source_component": {
+        "id": "component-eba751",
+        "name": "sf_intl_territory",
+        "alias": "sf_intl_territory",
+        "xy": [
+          868,
+          588
+        ],
+        "connection": {
+          "id": 10791,
+          "type": "salesforce",
+          "name": "conn_sf_intltgt"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "Id",
+              "alias": "intl_terr_id",
+              "data_type": "string"
+            },
+            {
+              "name": "DeveloperName",
+              "alias": "DeveloperName",
+              "data_type": "string"
+            }
+          ]
+        },
+        "cloud_storage_connection_id": "10791",
+        "object_name": "Territory2",
+        "where_clause": "",
+        "source_action": "query",
+        "access_mode": "object",
+        "query": ""
+      }
+    },
+    {
+      "join_component": {
+        "id": "component-8382fb",
+        "name": "jnr_terri_dev_name",
+        "alias": "jnr_terri_dev_name",
+        "xy": [
+          700,
+          784
+        ],
+        "join_type": "inner",
+        "optimization_type": "default",
+        "relations": [
+          {
+            "fields": [
+              "DeveloperName"
+            ]
+          },
+          {
+            "fields": [
+              "DeveloperName"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-f0c890",
+      "label": "edge-f0c890",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-f3ceb4",
+      "target": "component-f646da"
+    },
+    {
+      "id": "edge-27b74f",
+      "label": "edge-27b74f",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-f646da",
+      "target": "component-38b3e5"
+    },
+    {
+      "id": "edge-cb0b46",
+      "label": "edge-cb0b46",
+      "order": 1,
+      "source_index": 0,
+      "source": "component-24461c",
+      "target": "component-f646da"
+    },
+    {
+      "id": "edge-4b13fc",
+      "label": "edge-4b13fc",
+      "order": 1,
+      "source_index": 0,
+      "source": "component-df4aa7",
+      "target": "component-38b3e5"
+    },
+    {
+      "id": "edge-ff1bef",
+      "label": "edge-ff1bef",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-38b3e5",
+      "target": "component-8382fb"
+    },
+    {
+      "id": "edge-3fd7fa",
+      "label": "edge-3fd7fa",
+      "order": 1,
+      "source_index": 0,
+      "source": "component-eba751",
+      "target": "component-8382fb"
+    },
+    {
+      "id": "edge-114f6e",
+      "label": "edge-114f6e",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-8382fb",
+      "target": "component-130643"
+    }
+  ],
+  "variables": {
+  },
+  "secret_variables": {
+  },
+  "metadata": {
+    "name": "pkg_user_territory2_assoc_load",
+    "description": "",
+    "flow_type": "dataflow",
+    "version": "1.10",
+    "version_description": ""
+  }
+}

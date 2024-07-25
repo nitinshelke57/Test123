@@ -1,0 +1,2108 @@
+{
+  "components": [
+    {
+      "salesforce_source_component": {
+        "id": "component-d634b6",
+        "name": "sf_us_contact",
+        "alias": "sf_us_contact",
+        "xy": [
+          840,
+          252
+        ],
+        "connection": {
+          "id": 10790,
+          "type": "salesforce"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "LastModifiedDate",
+              "alias": "LastModifiedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_Species_Beef__c",
+              "alias": "ZTS_US_Species_Beef__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Speaker_Flag__c",
+              "alias": "ZTS_US_Speaker_Flag__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Species_Horse__c",
+              "alias": "ZTS_US_Species_Horse__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "FAW_UUID__c",
+              "alias": "FAW_UUID__c",
+              "data_type": "string"
+            },
+            {
+              "name": "HasOptedOutOfFax",
+              "alias": "HasOptedOutOfFax",
+              "data_type": "boolean"
+            },
+            {
+              "name": "OtherStateCode",
+              "alias": "OtherStateCode",
+              "data_type": "string"
+            },
+            {
+              "name": "MZR_Contact__c",
+              "alias": "MZR_Contact__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ELITE_Speaker__c",
+              "alias": "ELITE_Speaker__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "B2C__c",
+              "alias": "B2C__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Department",
+              "alias": "Department",
+              "data_type": "string"
+            },
+            {
+              "name": "PhotoUrl",
+              "alias": "PhotoUrl",
+              "data_type": "string"
+            },
+            {
+              "name": "UniqueEntry__Lead_Dupes_Ignored__c",
+              "alias": "UniqueEntry__Lead_Dupes_Ignored__c",
+              "data_type": "double"
+            },
+            {
+              "name": "Campaign_Member_Created_by__c",
+              "alias": "Campaign_Member_Created_by__c",
+              "data_type": "string"
+            },
+            {
+              "name": "RingLead_DMS_Status__c",
+              "alias": "RingLead_DMS_Status__c",
+              "data_type": "string"
+            },
+            {
+              "name": "IsDeleted",
+              "alias": "IsDeleted",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Middle_Initial__c",
+              "alias": "ZTS_US_Middle_Initial__c",
+              "data_type": "string"
+            },
+            {
+              "name": "OtherCountryCode",
+              "alias": "OtherCountryCode",
+              "data_type": "string"
+            },
+            {
+              "name": "mkto2__Inferred_Postal_Code__c",
+              "alias": "mkto2__Inferred_Postal_Code__c",
+              "data_type": "string"
+            },
+            {
+              "name": "IsRecentCaller__c",
+              "alias": "IsRecentCaller__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "OtherLatitude",
+              "alias": "OtherLatitude",
+              "data_type": "double"
+            },
+            {
+              "name": "mkto2__Inferred_Metropolitan_Area__c",
+              "alias": "mkto2__Inferred_Metropolitan_Area__c",
+              "data_type": "string"
+            },
+            {
+              "name": "EDandTrainingOptOut__c",
+              "alias": "EDandTrainingOptOut__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_KOL_Max_EndDate__c",
+              "alias": "ZTS_US_KOL_Max_EndDate__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "Jigsaw",
+              "alias": "Jigsaw",
+              "data_type": "string"
+            },
+            {
+              "name": "DoNotCall",
+              "alias": "DoNotCall",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_KOL_Start_Date__c",
+              "alias": "ZTS_US_KOL_Start_Date__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_Campaign_for_Contact__c",
+              "alias": "ZTS_US_Campaign_for_Contact__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Vet_Segmentation__c",
+              "alias": "ZTS_US_Vet_Segmentation__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Has_Contact_Email__c",
+              "alias": "Has_Contact_Email__c",
+              "data_type": "double"
+            },
+            {
+              "name": "MailingState",
+              "alias": "MailingState",
+              "data_type": "string"
+            },
+            {
+              "name": "B2B__c",
+              "alias": "B2B__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "mkto2__Original_Search_Phrase__c",
+              "alias": "mkto2__Original_Search_Phrase__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Species_Cat__c",
+              "alias": "ZTS_US_Species_Cat__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "CustomerUUID__c",
+              "alias": "CustomerUUID__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Zoetis_Territories__c",
+              "alias": "Zoetis_Territories__c",
+              "data_type": "string"
+            },
+            {
+              "name": "RecordTypeId",
+              "alias": "RecordTypeId",
+              "data_type": "string"
+            },
+            {
+              "name": "OtherCountry",
+              "alias": "OtherCountry",
+              "data_type": "string"
+            },
+            {
+              "name": "Invalid_Marketo_Email__c",
+              "alias": "Invalid_Marketo_Email__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "CPAC_Effective_Date__c",
+              "alias": "CPAC_Effective_Date__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_Primary_Interest__c",
+              "alias": "ZTS_US_Primary_Interest__c",
+              "data_type": "string"
+            },
+            {
+              "name": "EmailBouncedReason",
+              "alias": "EmailBouncedReason",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Account_influence__c",
+              "alias": "ZTS_US_Account_influence__c",
+              "data_type": "string"
+            },
+            {
+              "name": "FirstName",
+              "alias": "FirstName",
+              "data_type": "string"
+            },
+            {
+              "name": "OtherPostalCode",
+              "alias": "OtherPostalCode",
+              "data_type": "string"
+            },
+            {
+              "name": "DERM_Objection_Date_Stamp__c",
+              "alias": "DERM_Objection_Date_Stamp__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "DERM_Disq_reason__c",
+              "alias": "DERM_Disq_reason__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Board_Certification_1__c",
+              "alias": "Board_Certification_1__c",
+              "data_type": "string"
+            },
+            {
+              "name": "SystemModstamp",
+              "alias": "SystemModstamp",
+              "data_type": "datetime"
+            },
+            {
+              "name": "Campaign_Member_Created_by_Email__c",
+              "alias": "Campaign_Member_Created_by_Email__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Speaker_Bio_Rich_Text__c",
+              "alias": "Speaker_Bio_Rich_Text__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Speaker_Contract_Effective_Date__c",
+              "alias": "Speaker_Contract_Effective_Date__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "PIT_External_ID__c",
+              "alias": "PIT_External_ID__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Communication_Preference__c",
+              "alias": "ZTS_US_Communication_Preference__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ProHeart_Certified__c",
+              "alias": "ProHeart_Certified__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Interface_Email__c",
+              "alias": "Interface_Email__c",
+              "data_type": "string"
+            },
+            {
+              "name": "AccountId",
+              "alias": "AccountId",
+              "data_type": "string"
+            },
+            {
+              "name": "Email",
+              "alias": "Email",
+              "data_type": "string"
+            },
+            {
+              "name": "mkto2__Inferred_Country__c",
+              "alias": "mkto2__Inferred_Country__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Pitcher_Active__c",
+              "alias": "Pitcher_Active__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Name",
+              "alias": "Name",
+              "data_type": "string"
+            },
+            {
+              "name": "Board_Certification_2__c",
+              "alias": "Board_Certification_2__c",
+              "data_type": "string"
+            },
+            {
+              "name": "CreatedById",
+              "alias": "CreatedById",
+              "data_type": "string"
+            },
+            {
+              "name": "NewslettersOptOut__c",
+              "alias": "NewslettersOptOut__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "MasterRecordId",
+              "alias": "MasterRecordId",
+              "data_type": "string"
+            },
+            {
+              "name": "LastViewedDate",
+              "alias": "LastViewedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "Derm_Demographic_Score__c",
+              "alias": "Derm_Demographic_Score__c",
+              "data_type": "double"
+            },
+            {
+              "name": "ReasonCodeTooManyZEmails__c",
+              "alias": "ReasonCodeTooManyZEmails__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "mkto2__Original_Source_Info__c",
+              "alias": "mkto2__Original_Source_Info__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Species_Sheep__c",
+              "alias": "ZTS_US_Species_Sheep__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "DERM_Disqualified_Date_Stamp__c",
+              "alias": "DERM_Disqualified_Date_Stamp__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "mkto2__Original_Search_Engine__c",
+              "alias": "mkto2__Original_Search_Engine__c",
+              "data_type": "string"
+            },
+            {
+              "name": "MailingStateCode",
+              "alias": "MailingStateCode",
+              "data_type": "string"
+            },
+            {
+              "name": "CreatedDate",
+              "alias": "CreatedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_Contact_Portal_Email__c",
+              "alias": "ZTS_US_Contact_Portal_Email__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZoetisNewsOptOut__c",
+              "alias": "ZoetisNewsOptOut__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "LastName",
+              "alias": "LastName",
+              "data_type": "string"
+            },
+            {
+              "name": "MailingStreet",
+              "alias": "MailingStreet",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Degree__c",
+              "alias": "ZTS_US_Degree__c",
+              "data_type": "string"
+            },
+            {
+              "name": "RecentCallers__c",
+              "alias": "RecentCallers__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Status__c",
+              "alias": "ZTS_US_Status__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Species_Pork__c",
+              "alias": "ZTS_US_Species_Pork__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "LastReferencedDate",
+              "alias": "LastReferencedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_Primary_Species__c",
+              "alias": "ZTS_US_Primary_Species__c",
+              "data_type": "string"
+            },
+            {
+              "name": "OtherState",
+              "alias": "OtherState",
+              "data_type": "string"
+            },
+            {
+              "name": "MailingLongitude",
+              "alias": "MailingLongitude",
+              "data_type": "double"
+            },
+            {
+              "name": "MailingPostalCode",
+              "alias": "MailingPostalCode",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_KOL_End_Date_NotSpecified__c",
+              "alias": "ZTS_US_KOL_End_Date_NotSpecified__c",
+              "data_type": "double"
+            },
+            {
+              "name": "ReasonCodeNotsignedup__c",
+              "alias": "ReasonCodeNotsignedup__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Calc_KOL_Flag__c",
+              "alias": "ZTS_US_Calc_KOL_Flag__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Anniversary__c",
+              "alias": "ZTS_US_Anniversary__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "LE_contact_Marketo__c",
+              "alias": "LE_contact_Marketo__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Reason_for_Inactivation__c",
+              "alias": "ZTS_US_Reason_for_Inactivation__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Title",
+              "alias": "Title",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Species_Dog__c",
+              "alias": "ZTS_US_Species_Dog__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "LastCURequestDate",
+              "alias": "LastCURequestDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "RL_IgnoreAsPossibleDuplicate__c",
+              "alias": "RL_IgnoreAsPossibleDuplicate__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ReportsToId",
+              "alias": "ReportsToId",
+              "data_type": "string"
+            },
+            {
+              "name": "mkto2__Inferred_City__c",
+              "alias": "mkto2__Inferred_City__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Primary_Language__c",
+              "alias": "ZTS_US_Primary_Language__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Vendor_ID__c",
+              "alias": "ZTS_US_Vendor_ID__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Fax",
+              "alias": "Fax",
+              "data_type": "string"
+            },
+            {
+              "name": "PromosandOffersOptOut__c",
+              "alias": "PromosandOffersOptOut__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "JigsawContactId",
+              "alias": "JigsawContactId",
+              "data_type": "string"
+            },
+            {
+              "name": "mkto2__Inferred_Phone_Area_Code__c",
+              "alias": "mkto2__Inferred_Phone_Area_Code__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Speaker_Bio__c",
+              "alias": "Speaker_Bio__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Behavior_Score__c",
+              "alias": "Behavior_Score__c",
+              "data_type": "double"
+            },
+            {
+              "name": "ZTS_US_DVM_Year__c",
+              "alias": "ZTS_US_DVM_Year__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Last_Call_Created_by_Email__c",
+              "alias": "Last_Call_Created_by_Email__c",
+              "data_type": "string"
+            },
+            {
+              "name": "DERM_Lifecycle_Status__c",
+              "alias": "DERM_Lifecycle_Status__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Check_Owner_Manager__c",
+              "alias": "Check_Owner_Manager__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "mkto2__Original_Referrer__c",
+              "alias": "mkto2__Original_Referrer__c",
+              "data_type": "string"
+            },
+            {
+              "name": "OtherLongitude",
+              "alias": "OtherLongitude",
+              "data_type": "double"
+            },
+            {
+              "name": "mkto2__Original_Source_Type__c",
+              "alias": "mkto2__Original_Source_Type__c",
+              "data_type": "string"
+            },
+            {
+              "name": "OtherCity",
+              "alias": "OtherCity",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Record_Created__c",
+              "alias": "ZTS_US_Record_Created__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "mkto2__Acquisition_Program__c",
+              "alias": "mkto2__Acquisition_Program__c",
+              "data_type": "string"
+            },
+            {
+              "name": "UniqueEntry__Contact_Dupes_Ignored__c",
+              "alias": "UniqueEntry__Contact_Dupes_Ignored__c",
+              "data_type": "double"
+            },
+            {
+              "name": "ZTS_US_Contact_SFDC_ID__c",
+              "alias": "ZTS_US_Contact_SFDC_ID__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Species_Poultry__c",
+              "alias": "ZTS_US_Species_Poultry__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "OtherGeocodeAccuracy",
+              "alias": "OtherGeocodeAccuracy",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Suffix__c",
+              "alias": "ZTS_US_Suffix__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Invalid_Email__c",
+              "alias": "ZTS_US_Invalid_Email__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Last_Call_Created_by__c",
+              "alias": "Last_Call_Created_by__c",
+              "data_type": "string"
+            },
+            {
+              "name": "MailingCity",
+              "alias": "MailingCity",
+              "data_type": "string"
+            },
+            {
+              "name": "OtherStreet",
+              "alias": "OtherStreet",
+              "data_type": "string"
+            },
+            {
+              "name": "Surveys_Opt_Out__c",
+              "alias": "Surveys_Opt_Out__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "DERM_Disqualified_Reason__c",
+              "alias": "DERM_Disqualified_Reason__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ReasonCodeNotRelevant__c",
+              "alias": "ReasonCodeNotRelevant__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "MailingCountryCode",
+              "alias": "MailingCountryCode",
+              "data_type": "string"
+            },
+            {
+              "name": "Id",
+              "alias": "Id",
+              "data_type": "string"
+            },
+            {
+              "name": "mkto2__Inferred_Company__c",
+              "alias": "mkto2__Inferred_Company__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_KOL_Flag__c",
+              "alias": "ZTS_US_KOL_Flag__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "OtherPhone",
+              "alias": "OtherPhone",
+              "data_type": "string"
+            },
+            {
+              "name": "Description",
+              "alias": "Description",
+              "data_type": "string"
+            },
+            {
+              "name": "AssistantName",
+              "alias": "AssistantName",
+              "data_type": "string"
+            },
+            {
+              "name": "MailingCountry",
+              "alias": "MailingCountry",
+              "data_type": "string"
+            },
+            {
+              "name": "et4ae5__Mobile_Country_Code__c",
+              "alias": "et4ae5__Mobile_Country_Code__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_DISC_Profile__c",
+              "alias": "ZTS_US_DISC_Profile__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Salutation",
+              "alias": "Salutation",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_KOL_Speaker_SyncStatus__c",
+              "alias": "ZTS_US_KOL_Speaker_SyncStatus__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "DERM_Renurture_Date_Stamp__c",
+              "alias": "DERM_Renurture_Date_Stamp__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "OwnerId",
+              "alias": "OwnerId",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Speaker_EndDate_NotSpecified__c",
+              "alias": "ZTS_US_Speaker_EndDate_NotSpecified__c",
+              "data_type": "double"
+            },
+            {
+              "name": "mkto2__Inferred_State_Region__c",
+              "alias": "mkto2__Inferred_State_Region__c",
+              "data_type": "string"
+            },
+            {
+              "name": "VGP_Contact__c",
+              "alias": "VGP_Contact__c",
+              "data_type": "string"
+            },
+            {
+              "name": "X18_digit_Id__c",
+              "alias": "X18_digit_Id__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Cal_Speaker_Flag__c",
+              "alias": "ZTS_US_Cal_Speaker_Flag__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Job_Function__c",
+              "alias": "ZTS_US_Job_Function__c",
+              "data_type": "string"
+            },
+            {
+              "name": "HomePhone",
+              "alias": "HomePhone",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Institution__c",
+              "alias": "ZTS_US_Institution__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Formatted_FullName__c",
+              "alias": "ZTS_US_Formatted_FullName__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ReasonCodeToomanyEmails__c",
+              "alias": "ReasonCodeToomanyEmails__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ReasonCodePause__c",
+              "alias": "ReasonCodePause__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "LastActivityDate",
+              "alias": "LastActivityDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "Speaker_Species__c",
+              "alias": "Speaker_Species__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_UpdateHappeningFromAff__c",
+              "alias": "ZTS_US_UpdateHappeningFromAff__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "WebinarsOptOut__c",
+              "alias": "WebinarsOptOut__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Derm_Behavior_Score__c",
+              "alias": "Derm_Behavior_Score__c",
+              "data_type": "double"
+            },
+            {
+              "name": "ZTS_US_Year__c",
+              "alias": "ZTS_US_Year__c",
+              "data_type": "string"
+            },
+            {
+              "name": "MobilePhone",
+              "alias": "MobilePhone",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Speaker_Max_End_Date__c",
+              "alias": "ZTS_US_Speaker_Max_End_Date__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_Speaker_Start_Date__c",
+              "alias": "ZTS_US_Speaker_Start_Date__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "MailingLatitude",
+              "alias": "MailingLatitude",
+              "data_type": "double"
+            },
+            {
+              "name": "ZTS_US_LE_Contact__c",
+              "alias": "ZTS_US_LE_Contact__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Profession__c",
+              "alias": "ZTS_US_Profession__c",
+              "data_type": "string"
+            },
+            {
+              "name": "EventsOptOut__c",
+              "alias": "EventsOptOut__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Last_Call_Date__c",
+              "alias": "ZTS_US_Last_Call_Date__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "DERM_MQL_Date_Stamp__c",
+              "alias": "DERM_MQL_Date_Stamp__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "IsEmailBounced",
+              "alias": "IsEmailBounced",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Portal_Email_Opt_Out__c",
+              "alias": "ZTS_US_Portal_Email_Opt_Out__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "HasOptedOutOfEmail",
+              "alias": "HasOptedOutOfEmail",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Birthdate",
+              "alias": "Birthdate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "DERM_SQL_Date_Stamp__c",
+              "alias": "DERM_SQL_Date_Stamp__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "LeadSource",
+              "alias": "LeadSource",
+              "data_type": "string"
+            },
+            {
+              "name": "mkto2__Acquisition_Program_Id__c",
+              "alias": "mkto2__Acquisition_Program_Id__c",
+              "data_type": "double"
+            },
+            {
+              "name": "AssistantPhone",
+              "alias": "AssistantPhone",
+              "data_type": "string"
+            },
+            {
+              "name": "mkto2__Acquisition_Date__c",
+              "alias": "mkto2__Acquisition_Date__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "mkto2__Lead_Score__c",
+              "alias": "mkto2__Lead_Score__c",
+              "data_type": "double"
+            },
+            {
+              "name": "EmailBouncedDate",
+              "alias": "EmailBouncedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "RingLeadTrigger__RingLead_App_Field__c",
+              "alias": "RingLeadTrigger__RingLead_App_Field__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Derm_Lead_Score__c",
+              "alias": "Derm_Lead_Score__c",
+              "data_type": "double"
+            },
+            {
+              "name": "ZTS_US_Species_Dairy__c",
+              "alias": "ZTS_US_Species_Dairy__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ContestsOptOut__c",
+              "alias": "ContestsOptOut__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "et4ae5__HasOptedOutOfMobile__c",
+              "alias": "et4ae5__HasOptedOutOfMobile__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Phone",
+              "alias": "Phone",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Invalid_Portal_Email__c",
+              "alias": "ZTS_US_Invalid_Portal_Email__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "LastCUUpdateDate",
+              "alias": "LastCUUpdateDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_Secondary_Interest__c",
+              "alias": "ZTS_US_Secondary_Interest__c",
+              "data_type": "string"
+            },
+            {
+              "name": "DiagnosticsOptOut__c",
+              "alias": "DiagnosticsOptOut__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "MailingGeocodeAccuracy",
+              "alias": "MailingGeocodeAccuracy",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Profit_Solver_Contact__c",
+              "alias": "ZTS_US_Profit_Solver_Contact__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Interface_Email_Opt_Out__c",
+              "alias": "Interface_Email_Opt_Out__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ProgramsOptOut__c",
+              "alias": "ProgramsOptOut__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "DERM_Engaged_Date_Stamp__c",
+              "alias": "DERM_Engaged_Date_Stamp__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "LoyaltyandRewardsOptOut__c",
+              "alias": "LoyaltyandRewardsOptOut__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "CPAC_Consultant__c",
+              "alias": "CPAC_Consultant__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_NARC_ID__c",
+              "alias": "ZTS_US_NARC_ID__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Phone_Opt_out__c",
+              "alias": "ZTS_US_Phone_Opt_out__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Siebel_Contact_ID__c",
+              "alias": "ZTS_US_Siebel_Contact_ID__c",
+              "data_type": "string"
+            },
+            {
+              "name": "DERM_Other_Disqualifed_Reason__c",
+              "alias": "DERM_Other_Disqualifed_Reason__c",
+              "data_type": "string"
+            },
+            {
+              "name": "LastModifiedById",
+              "alias": "LastModifiedById",
+              "data_type": "string"
+            }
+          ]
+        },
+        "cloud_storage_connection_id": "10790",
+        "object_name": "Contact",
+        "where_clause": "",
+        "source_action": "query",
+        "access_mode": "object",
+        "query": ""
+      }
+    },
+    {
+      "database_destination_component": {
+        "id": "component-670a17",
+        "name": "us_stg_contact_raw",
+        "alias": "us_stg_contact_raw",
+        "xy": [
+          868,
+          476
+        ],
+        "connection": {
+          "id": 11804,
+          "type": "herokupostgres",
+          "name": "conn_heroku_postgres"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+
+          ]
+        },
+        "database_connection_id": "11804",
+        "schema_name": "ussalesforceorg",
+        "table_name": "contact_raw",
+        "create_table": true,
+        "add_columns": true,
+        "column_mappings": [
+          {
+            "field_name": "LastModifiedDate",
+            "column_name": "LastModifiedDate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Species_Beef__c",
+            "column_name": "ZTS_US_Species_Beef__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Speaker_Flag__c",
+            "column_name": "ZTS_US_Speaker_Flag__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Species_Horse__c",
+            "column_name": "ZTS_US_Species_Horse__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "FAW_UUID__c",
+            "column_name": "FAW_UUID__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "HasOptedOutOfFax",
+            "column_name": "HasOptedOutOfFax",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OtherStateCode",
+            "column_name": "OtherStateCode",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MZR_Contact__c",
+            "column_name": "MZR_Contact__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ELITE_Speaker__c",
+            "column_name": "ELITE_Speaker__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "B2C__c",
+            "column_name": "B2C__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Department",
+            "column_name": "Department",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "PhotoUrl",
+            "column_name": "PhotoUrl",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "UniqueEntry__Lead_Dupes_Ignored__c",
+            "column_name": "UniqueEntry__Lead_Dupes_Ignored__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Campaign_Member_Created_by__c",
+            "column_name": "Campaign_Member_Created_by__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RingLead_DMS_Status__c",
+            "column_name": "RingLead_DMS_Status__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "IsDeleted",
+            "column_name": "IsDeleted",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Middle_Initial__c",
+            "column_name": "ZTS_US_Middle_Initial__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OtherCountryCode",
+            "column_name": "OtherCountryCode",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Inferred_Postal_Code__c",
+            "column_name": "mkto2__Inferred_Postal_Code__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "IsRecentCaller__c",
+            "column_name": "IsRecentCaller__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OtherLatitude",
+            "column_name": "OtherLatitude",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Inferred_Metropolitan_Area__c",
+            "column_name": "mkto2__Inferred_Metropolitan_Area__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "EDandTrainingOptOut__c",
+            "column_name": "EDandTrainingOptOut__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_KOL_Max_EndDate__c",
+            "column_name": "ZTS_US_KOL_Max_EndDate__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Jigsaw",
+            "column_name": "Jigsaw",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DoNotCall",
+            "column_name": "DoNotCall",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_KOL_Start_Date__c",
+            "column_name": "ZTS_US_KOL_Start_Date__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Campaign_for_Contact__c",
+            "column_name": "ZTS_US_Campaign_for_Contact__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Vet_Segmentation__c",
+            "column_name": "ZTS_US_Vet_Segmentation__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Has_Contact_Email__c",
+            "column_name": "Has_Contact_Email__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MailingState",
+            "column_name": "MailingState",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "B2B__c",
+            "column_name": "B2B__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Original_Search_Phrase__c",
+            "column_name": "mkto2__Original_Search_Phrase__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Species_Cat__c",
+            "column_name": "ZTS_US_Species_Cat__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "CustomerUUID__c",
+            "column_name": "CustomerUUID__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Zoetis_Territories__c",
+            "column_name": "Zoetis_Territories__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecordTypeId",
+            "column_name": "RecordTypeId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OtherCountry",
+            "column_name": "OtherCountry",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Invalid_Marketo_Email__c",
+            "column_name": "Invalid_Marketo_Email__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "CPAC_Effective_Date__c",
+            "column_name": "CPAC_Effective_Date__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Primary_Interest__c",
+            "column_name": "ZTS_US_Primary_Interest__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "EmailBouncedReason",
+            "column_name": "EmailBouncedReason",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Account_influence__c",
+            "column_name": "ZTS_US_Account_influence__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "FirstName",
+            "column_name": "FirstName",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OtherPostalCode",
+            "column_name": "OtherPostalCode",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DERM_Objection_Date_Stamp__c",
+            "column_name": "DERM_Objection_Date_Stamp__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DERM_Disq_reason__c",
+            "column_name": "DERM_Disq_reason__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Board_Certification_1__c",
+            "column_name": "Board_Certification_1__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "SystemModstamp",
+            "column_name": "SystemModstamp",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Campaign_Member_Created_by_Email__c",
+            "column_name": "Campaign_Member_Created_by_Email__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Speaker_Bio_Rich_Text__c",
+            "column_name": "Speaker_Bio_Rich_Text__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Speaker_Contract_Effective_Date__c",
+            "column_name": "Speaker_Contract_Effective_Date__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "PIT_External_ID__c",
+            "column_name": "PIT_External_ID__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Communication_Preference__c",
+            "column_name": "ZTS_US_Communication_Preference__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ProHeart_Certified__c",
+            "column_name": "ProHeart_Certified__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Interface_Email__c",
+            "column_name": "Interface_Email__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "AccountId",
+            "column_name": "AccountId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Email",
+            "column_name": "Email",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Inferred_Country__c",
+            "column_name": "mkto2__Inferred_Country__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Pitcher_Active__c",
+            "column_name": "Pitcher_Active__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Name",
+            "column_name": "Name",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Board_Certification_2__c",
+            "column_name": "Board_Certification_2__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "CreatedById",
+            "column_name": "CreatedById",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "NewslettersOptOut__c",
+            "column_name": "NewslettersOptOut__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MasterRecordId",
+            "column_name": "MasterRecordId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "LastViewedDate",
+            "column_name": "LastViewedDate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Derm_Demographic_Score__c",
+            "column_name": "Derm_Demographic_Score__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ReasonCodeTooManyZEmails__c",
+            "column_name": "ReasonCodeTooManyZEmails__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Original_Source_Info__c",
+            "column_name": "mkto2__Original_Source_Info__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Species_Sheep__c",
+            "column_name": "ZTS_US_Species_Sheep__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DERM_Disqualified_Date_Stamp__c",
+            "column_name": "DERM_Disqualified_Date_Stamp__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Original_Search_Engine__c",
+            "column_name": "mkto2__Original_Search_Engine__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MailingStateCode",
+            "column_name": "MailingStateCode",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "CreatedDate",
+            "column_name": "CreatedDate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Contact_Portal_Email__c",
+            "column_name": "ZTS_US_Contact_Portal_Email__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZoetisNewsOptOut__c",
+            "column_name": "ZoetisNewsOptOut__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "LastName",
+            "column_name": "LastName",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MailingStreet",
+            "column_name": "MailingStreet",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Degree__c",
+            "column_name": "ZTS_US_Degree__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecentCallers__c",
+            "column_name": "RecentCallers__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Status__c",
+            "column_name": "ZTS_US_Status__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Species_Pork__c",
+            "column_name": "ZTS_US_Species_Pork__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "LastReferencedDate",
+            "column_name": "LastReferencedDate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Primary_Species__c",
+            "column_name": "ZTS_US_Primary_Species__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OtherState",
+            "column_name": "OtherState",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MailingLongitude",
+            "column_name": "MailingLongitude",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MailingPostalCode",
+            "column_name": "MailingPostalCode",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_KOL_End_Date_NotSpecified__c",
+            "column_name": "ZTS_US_KOL_End_Date_NotSpecified__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ReasonCodeNotsignedup__c",
+            "column_name": "ReasonCodeNotsignedup__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Calc_KOL_Flag__c",
+            "column_name": "ZTS_US_Calc_KOL_Flag__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Anniversary__c",
+            "column_name": "ZTS_US_Anniversary__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "LE_contact_Marketo__c",
+            "column_name": "LE_contact_Marketo__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Reason_for_Inactivation__c",
+            "column_name": "ZTS_US_Reason_for_Inactivation__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Title",
+            "column_name": "Title",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Species_Dog__c",
+            "column_name": "ZTS_US_Species_Dog__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "LastCURequestDate",
+            "column_name": "LastCURequestDate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RL_IgnoreAsPossibleDuplicate__c",
+            "column_name": "RL_IgnoreAsPossibleDuplicate__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ReportsToId",
+            "column_name": "ReportsToId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Inferred_City__c",
+            "column_name": "mkto2__Inferred_City__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Primary_Language__c",
+            "column_name": "ZTS_US_Primary_Language__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Vendor_ID__c",
+            "column_name": "ZTS_US_Vendor_ID__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Fax",
+            "column_name": "Fax",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "PromosandOffersOptOut__c",
+            "column_name": "PromosandOffersOptOut__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "JigsawContactId",
+            "column_name": "JigsawContactId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Inferred_Phone_Area_Code__c",
+            "column_name": "mkto2__Inferred_Phone_Area_Code__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Speaker_Bio__c",
+            "column_name": "Speaker_Bio__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Behavior_Score__c",
+            "column_name": "Behavior_Score__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_DVM_Year__c",
+            "column_name": "ZTS_US_DVM_Year__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Last_Call_Created_by_Email__c",
+            "column_name": "Last_Call_Created_by_Email__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DERM_Lifecycle_Status__c",
+            "column_name": "DERM_Lifecycle_Status__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Check_Owner_Manager__c",
+            "column_name": "Check_Owner_Manager__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Original_Referrer__c",
+            "column_name": "mkto2__Original_Referrer__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OtherLongitude",
+            "column_name": "OtherLongitude",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Original_Source_Type__c",
+            "column_name": "mkto2__Original_Source_Type__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OtherCity",
+            "column_name": "OtherCity",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Record_Created__c",
+            "column_name": "ZTS_US_Record_Created__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Acquisition_Program__c",
+            "column_name": "mkto2__Acquisition_Program__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "UniqueEntry__Contact_Dupes_Ignored__c",
+            "column_name": "UniqueEntry__Contact_Dupes_Ignored__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Contact_SFDC_ID__c",
+            "column_name": "ZTS_US_Contact_SFDC_ID__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Species_Poultry__c",
+            "column_name": "ZTS_US_Species_Poultry__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OtherGeocodeAccuracy",
+            "column_name": "OtherGeocodeAccuracy",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Suffix__c",
+            "column_name": "ZTS_US_Suffix__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Invalid_Email__c",
+            "column_name": "ZTS_US_Invalid_Email__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Last_Call_Created_by__c",
+            "column_name": "Last_Call_Created_by__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MailingCity",
+            "column_name": "MailingCity",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OtherStreet",
+            "column_name": "OtherStreet",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Surveys_Opt_Out__c",
+            "column_name": "Surveys_Opt_Out__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DERM_Disqualified_Reason__c",
+            "column_name": "DERM_Disqualified_Reason__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ReasonCodeNotRelevant__c",
+            "column_name": "ReasonCodeNotRelevant__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MailingCountryCode",
+            "column_name": "MailingCountryCode",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Id",
+            "column_name": "Id",
+            "is_merge_key": true
+          },
+          {
+            "field_name": "mkto2__Inferred_Company__c",
+            "column_name": "mkto2__Inferred_Company__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_KOL_Flag__c",
+            "column_name": "ZTS_US_KOL_Flag__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OtherPhone",
+            "column_name": "OtherPhone",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Description",
+            "column_name": "Description",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "AssistantName",
+            "column_name": "AssistantName",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MailingCountry",
+            "column_name": "MailingCountry",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "et4ae5__Mobile_Country_Code__c",
+            "column_name": "et4ae5__Mobile_Country_Code__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_DISC_Profile__c",
+            "column_name": "ZTS_US_DISC_Profile__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Salutation",
+            "column_name": "Salutation",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_KOL_Speaker_SyncStatus__c",
+            "column_name": "ZTS_US_KOL_Speaker_SyncStatus__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DERM_Renurture_Date_Stamp__c",
+            "column_name": "DERM_Renurture_Date_Stamp__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OwnerId",
+            "column_name": "OwnerId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Speaker_EndDate_NotSpecified__c",
+            "column_name": "ZTS_US_Speaker_EndDate_NotSpecified__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Inferred_State_Region__c",
+            "column_name": "mkto2__Inferred_State_Region__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "VGP_Contact__c",
+            "column_name": "VGP_Contact__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "X18_digit_Id__c",
+            "column_name": "X18_digit_Id__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Cal_Speaker_Flag__c",
+            "column_name": "ZTS_US_Cal_Speaker_Flag__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Job_Function__c",
+            "column_name": "ZTS_US_Job_Function__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "HomePhone",
+            "column_name": "HomePhone",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Institution__c",
+            "column_name": "ZTS_US_Institution__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Formatted_FullName__c",
+            "column_name": "ZTS_US_Formatted_FullName__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ReasonCodeToomanyEmails__c",
+            "column_name": "ReasonCodeToomanyEmails__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ReasonCodePause__c",
+            "column_name": "ReasonCodePause__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "LastActivityDate",
+            "column_name": "LastActivityDate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Speaker_Species__c",
+            "column_name": "Speaker_Species__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_UpdateHappeningFromAff__c",
+            "column_name": "ZTS_US_UpdateHappeningFromAff__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "WebinarsOptOut__c",
+            "column_name": "WebinarsOptOut__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Derm_Behavior_Score__c",
+            "column_name": "Derm_Behavior_Score__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Year__c",
+            "column_name": "ZTS_US_Year__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MobilePhone",
+            "column_name": "MobilePhone",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Speaker_Max_End_Date__c",
+            "column_name": "ZTS_US_Speaker_Max_End_Date__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Speaker_Start_Date__c",
+            "column_name": "ZTS_US_Speaker_Start_Date__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MailingLatitude",
+            "column_name": "MailingLatitude",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_LE_Contact__c",
+            "column_name": "ZTS_US_LE_Contact__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Profession__c",
+            "column_name": "ZTS_US_Profession__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "EventsOptOut__c",
+            "column_name": "EventsOptOut__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Last_Call_Date__c",
+            "column_name": "ZTS_US_Last_Call_Date__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DERM_MQL_Date_Stamp__c",
+            "column_name": "DERM_MQL_Date_Stamp__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "IsEmailBounced",
+            "column_name": "IsEmailBounced",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Portal_Email_Opt_Out__c",
+            "column_name": "ZTS_US_Portal_Email_Opt_Out__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "HasOptedOutOfEmail",
+            "column_name": "HasOptedOutOfEmail",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Birthdate",
+            "column_name": "Birthdate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DERM_SQL_Date_Stamp__c",
+            "column_name": "DERM_SQL_Date_Stamp__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "LeadSource",
+            "column_name": "LeadSource",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Acquisition_Program_Id__c",
+            "column_name": "mkto2__Acquisition_Program_Id__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "AssistantPhone",
+            "column_name": "AssistantPhone",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Acquisition_Date__c",
+            "column_name": "mkto2__Acquisition_Date__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "mkto2__Lead_Score__c",
+            "column_name": "mkto2__Lead_Score__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "EmailBouncedDate",
+            "column_name": "EmailBouncedDate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RingLeadTrigger__RingLead_App_Field__c",
+            "column_name": "RingLeadTrigger__RingLead_App_Field__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Derm_Lead_Score__c",
+            "column_name": "Derm_Lead_Score__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Species_Dairy__c",
+            "column_name": "ZTS_US_Species_Dairy__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ContestsOptOut__c",
+            "column_name": "ContestsOptOut__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "et4ae5__HasOptedOutOfMobile__c",
+            "column_name": "et4ae5__HasOptedOutOfMobile__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Phone",
+            "column_name": "Phone",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Invalid_Portal_Email__c",
+            "column_name": "ZTS_US_Invalid_Portal_Email__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "LastCUUpdateDate",
+            "column_name": "LastCUUpdateDate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Secondary_Interest__c",
+            "column_name": "ZTS_US_Secondary_Interest__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DiagnosticsOptOut__c",
+            "column_name": "DiagnosticsOptOut__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "MailingGeocodeAccuracy",
+            "column_name": "MailingGeocodeAccuracy",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Profit_Solver_Contact__c",
+            "column_name": "ZTS_US_Profit_Solver_Contact__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Interface_Email_Opt_Out__c",
+            "column_name": "Interface_Email_Opt_Out__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ProgramsOptOut__c",
+            "column_name": "ProgramsOptOut__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DERM_Engaged_Date_Stamp__c",
+            "column_name": "DERM_Engaged_Date_Stamp__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "LoyaltyandRewardsOptOut__c",
+            "column_name": "LoyaltyandRewardsOptOut__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "CPAC_Consultant__c",
+            "column_name": "CPAC_Consultant__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_NARC_ID__c",
+            "column_name": "ZTS_US_NARC_ID__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Phone_Opt_out__c",
+            "column_name": "ZTS_US_Phone_Opt_out__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Siebel_Contact_ID__c",
+            "column_name": "ZTS_US_Siebel_Contact_ID__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DERM_Other_Disqualifed_Reason__c",
+            "column_name": "DERM_Other_Disqualifed_Reason__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "LastModifiedById",
+            "column_name": "LastModifiedById",
+            "is_merge_key": false
+          }
+        ],
+        "operation_type": "merge_update_and_insert",
+        "batch_size": 4000,
+        "parallel": 1,
+        "single_transaction_per_batch": false,
+        "split_by_field": "LastModifiedDate"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-4eaf89",
+      "label": "edge-4eaf89",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-d634b6",
+      "target": "component-670a17"
+    }
+  ],
+  "variables": {
+    "_EXEC_TYPE": "'mapreduce'",
+    "_MAP_TASK_TIMEOUT": "1500 * 1000",
+    "_HTTP_REQUEST_MAX_RETRIES": "1"
+  },
+  "secret_variables": {
+  },
+  "metadata": {
+    "name": "pkg_contact_raw",
+    "description": "",
+    "flow_type": "dataflow",
+    "version": "1.8",
+    "version_description": ""
+  }
+}

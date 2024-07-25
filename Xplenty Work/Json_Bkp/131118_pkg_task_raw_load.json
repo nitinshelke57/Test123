@@ -1,0 +1,1065 @@
+{
+  "components": [
+    {
+      "salesforce_source_component": {
+        "id": "component-b681ed",
+        "name": "src_sf_task",
+        "alias": "src_sf_task",
+        "xy": [
+          1260,
+          252
+        ],
+        "connection": {
+          "id": 10790,
+          "type": "salesforce"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "LastModifiedDate",
+              "alias": "LastModifiedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_Type__c",
+              "alias": "ZTS_US_Type__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_SER_Is_Owner_ABM__c",
+              "alias": "ZTS_US_SER_Is_Owner_ABM__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_EventCreatedByTrigger__c",
+              "alias": "ZTS_US_EventCreatedByTrigger__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ReminderDateTime",
+              "alias": "ReminderDateTime",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_Contact_Call_to__c",
+              "alias": "ZTS_US_Contact_Call_to__c",
+              "data_type": "string"
+            },
+            {
+              "name": "RecurrenceRegeneratedType",
+              "alias": "RecurrenceRegeneratedType",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Sales_Order__c",
+              "alias": "ZTS_US_Sales_Order__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Initial_Task_Owner__c",
+              "alias": "ZTS_US_Initial_Task_Owner__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Five9__Five9AgentName__c",
+              "alias": "Five9__Five9AgentName__c",
+              "data_type": "string"
+            },
+            {
+              "name": "RecurrenceInterval",
+              "alias": "RecurrenceInterval",
+              "data_type": "int"
+            },
+            {
+              "name": "Five9__Five9SessionId__c",
+              "alias": "Five9__Five9SessionId__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_SER_Manager_Name__c",
+              "alias": "ZTS_US_SER_Manager_Name__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Shipping_Date__c",
+              "alias": "ZTS_US_Shipping_Date__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_Total_Credits_for_Redemption__c",
+              "alias": "ZTS_US_Total_Credits_for_Redemption__c",
+              "data_type": "double"
+            },
+            {
+              "name": "Status",
+              "alias": "Status",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_TASK_Waiting_End_Time__c",
+              "alias": "ZTS_US_TASK_Waiting_End_Time__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "IsDeleted",
+              "alias": "IsDeleted",
+              "data_type": "boolean"
+            },
+            {
+              "name": "RecurrenceType",
+              "alias": "RecurrenceType",
+              "data_type": "string"
+            },
+            {
+              "name": "IsRecurrence",
+              "alias": "IsRecurrence",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Five9__Five9TaskType__c",
+              "alias": "Five9__Five9TaskType__c",
+              "data_type": "string"
+            },
+            {
+              "name": "RecurrenceMonthOfYear",
+              "alias": "RecurrenceMonthOfYear",
+              "data_type": "string"
+            },
+            {
+              "name": "Five9__Five9AgentExtension__c",
+              "alias": "Five9__Five9AgentExtension__c",
+              "data_type": "string"
+            },
+            {
+              "name": "URL_Name__c",
+              "alias": "URL_Name__c",
+              "data_type": "string"
+            },
+            {
+              "name": "PIT_Calendar_ID__c",
+              "alias": "PIT_Calendar_ID__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Id",
+              "alias": "Id",
+              "data_type": "string"
+            },
+            {
+              "name": "RecurrenceInstance",
+              "alias": "RecurrenceInstance",
+              "data_type": "string"
+            },
+            {
+              "name": "DB_Activity_Type__c",
+              "alias": "DB_Activity_Type__c",
+              "data_type": "string"
+            },
+            {
+              "name": "RecurrenceStartDateOnly",
+              "alias": "RecurrenceStartDateOnly",
+              "data_type": "datetime"
+            },
+            {
+              "name": "Five9__Five9TalkAndHoldTimeInSeconds__c",
+              "alias": "Five9__Five9TalkAndHoldTimeInSeconds__c",
+              "data_type": "double"
+            },
+            {
+              "name": "ZTS_US_SER_Is_Delegated_Task_Owner__c",
+              "alias": "ZTS_US_SER_Is_Delegated_Task_Owner__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "WhatId",
+              "alias": "WhatId",
+              "data_type": "string"
+            },
+            {
+              "name": "Description",
+              "alias": "Description",
+              "data_type": "string"
+            },
+            {
+              "name": "RecurrenceEndDateOnly",
+              "alias": "RecurrenceEndDateOnly",
+              "data_type": "datetime"
+            },
+            {
+              "name": "CallType",
+              "alias": "CallType",
+              "data_type": "string"
+            },
+            {
+              "name": "IsHighPriority",
+              "alias": "IsHighPriority",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Activity_Type__c",
+              "alias": "ZTS_US_Activity_Type__c",
+              "data_type": "string"
+            },
+            {
+              "name": "IsClosed",
+              "alias": "IsClosed",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Five9__Five9CallType__c",
+              "alias": "Five9__Five9CallType__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_TASK_SLA_breached__c",
+              "alias": "ZTS_US_TASK_SLA_breached__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "OwnerId",
+              "alias": "OwnerId",
+              "data_type": "string"
+            },
+            {
+              "name": "Five9__Five9DNIS__c",
+              "alias": "Five9__Five9DNIS__c",
+              "data_type": "string"
+            },
+            {
+              "name": "RecordTypeId",
+              "alias": "RecordTypeId",
+              "data_type": "string"
+            },
+            {
+              "name": "isGeneticsTask__c",
+              "alias": "isGeneticsTask__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Follow_up_date__c",
+              "alias": "ZTS_US_Follow_up_date__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_Product__c",
+              "alias": "ZTS_US_Product__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Is_Ever_Waiting_On_Customer__c",
+              "alias": "ZTS_US_Is_Ever_Waiting_On_Customer__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Ship_via__c",
+              "alias": "ZTS_US_Ship_via__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_TASK_Waiting_Start_Time__c",
+              "alias": "ZTS_US_TASK_Waiting_Start_Time__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "SystemModstamp",
+              "alias": "SystemModstamp",
+              "data_type": "datetime"
+            },
+            {
+              "name": "IsArchived",
+              "alias": "IsArchived",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_SER_Is_Owner_ISR__c",
+              "alias": "ZTS_US_SER_Is_Owner_ISR__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Type",
+              "alias": "Type",
+              "data_type": "string"
+            },
+            {
+              "name": "Five9__Five9ANI__c",
+              "alias": "Five9__Five9ANI__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_SER_Owner_Name__c",
+              "alias": "ZTS_US_SER_Owner_Name__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Origin__c",
+              "alias": "ZTS_US_Origin__c",
+              "data_type": "string"
+            },
+            {
+              "name": "AccountId",
+              "alias": "AccountId",
+              "data_type": "string"
+            },
+            {
+              "name": "CallDisposition",
+              "alias": "CallDisposition",
+              "data_type": "string"
+            },
+            {
+              "name": "Five9__Five9WrapTime__c",
+              "alias": "Five9__Five9WrapTime__c",
+              "data_type": "string"
+            },
+            {
+              "name": "CreatedById",
+              "alias": "CreatedById",
+              "data_type": "string"
+            },
+            {
+              "name": "RecurrenceActivityId",
+              "alias": "RecurrenceActivityId",
+              "data_type": "string"
+            },
+            {
+              "name": "WhoId",
+              "alias": "WhoId",
+              "data_type": "string"
+            },
+            {
+              "name": "ActivityDate",
+              "alias": "ActivityDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "Five9__Five9HandleTime__c",
+              "alias": "Five9__Five9HandleTime__c",
+              "data_type": "string"
+            },
+            {
+              "name": "CallDurationInSeconds",
+              "alias": "CallDurationInSeconds",
+              "data_type": "int"
+            },
+            {
+              "name": "Priority",
+              "alias": "Priority",
+              "data_type": "string"
+            },
+            {
+              "name": "RecurrenceTimeZoneSidKey",
+              "alias": "RecurrenceTimeZoneSidKey",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_CallRecordId__c",
+              "alias": "ZTS_US_CallRecordId__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Is_Realized__c",
+              "alias": "ZTS_US_Is_Realized__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "TaskSubtype",
+              "alias": "TaskSubtype",
+              "data_type": "string"
+            },
+            {
+              "name": "CreatedDate",
+              "alias": "CreatedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "Dummy__c",
+              "alias": "Dummy__c",
+              "data_type": "double"
+            },
+            {
+              "name": "ZTS_US_Legacy_CRM_ID__c",
+              "alias": "ZTS_US_Legacy_CRM_ID__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_SER_AutoCreated__c",
+              "alias": "ZTS_US_SER_AutoCreated__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_Campaign__c",
+              "alias": "ZTS_US_Campaign__c",
+              "data_type": "string"
+            },
+            {
+              "name": "RecurrenceDayOfWeekMask",
+              "alias": "RecurrenceDayOfWeekMask",
+              "data_type": "int"
+            },
+            {
+              "name": "Five9__Five9Campaign__c",
+              "alias": "Five9__Five9Campaign__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_SER_Business_Hour_Duration__c",
+              "alias": "ZTS_US_SER_Business_Hour_Duration__c",
+              "data_type": "double"
+            },
+            {
+              "name": "ZTS_US_Unit__c",
+              "alias": "ZTS_US_Unit__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_TASK_Waiting_Hour_Duration__c",
+              "alias": "ZTS_US_TASK_Waiting_Hour_Duration__c",
+              "data_type": "double"
+            },
+            {
+              "name": "ZTS_US_Price_List__c",
+              "alias": "ZTS_US_Price_List__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Product_Number__c",
+              "alias": "ZTS_US_Product_Number__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Description__c",
+              "alias": "ZTS_US_Description__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Brands_Detailed__c",
+              "alias": "ZTS_US_Brands_Detailed__c",
+              "data_type": "string"
+            },
+            {
+              "name": "IsReminderSet",
+              "alias": "IsReminderSet",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Call_Status__c",
+              "alias": "Call_Status__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Order_Origin_Department__c",
+              "alias": "ZTS_US_Order_Origin_Department__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_SER_ABM_Email__c",
+              "alias": "ZTS_US_SER_ABM_Email__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Five9__Five9Agent__c",
+              "alias": "Five9__Five9Agent__c",
+              "data_type": "string"
+            },
+            {
+              "name": "Total__c",
+              "alias": "Total__c",
+              "data_type": "double"
+            },
+            {
+              "name": "Subject",
+              "alias": "Subject",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Sub_Type__c",
+              "alias": "ZTS_US_Sub_Type__c",
+              "data_type": "string"
+            },
+            {
+              "name": "CallObject",
+              "alias": "CallObject",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_SER_Manager_Email__c",
+              "alias": "ZTS_US_SER_Manager_Email__c",
+              "data_type": "string"
+            },
+            {
+              "name": "RecurrenceDayOfMonth",
+              "alias": "RecurrenceDayOfMonth",
+              "data_type": "int"
+            },
+            {
+              "name": "ZTS_US_SER_Is_TBM_TaskOwner__c",
+              "alias": "ZTS_US_SER_Is_TBM_TaskOwner__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "LastModifiedById",
+              "alias": "LastModifiedById",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Quantity__c",
+              "alias": "ZTS_US_Quantity__c",
+              "data_type": "string"
+            }
+          ]
+        },
+        "cloud_storage_connection_id": "10790",
+        "object_name": "Task",
+        "where_clause": "",
+        "source_action": "query",
+        "access_mode": "object",
+        "query": ""
+      }
+    },
+    {
+      "database_destination_component": {
+        "id": "component-066123",
+        "name": "tgt_db_task",
+        "alias": "tgt_db_task",
+        "xy": [
+          1260,
+          588
+        ],
+        "connection": {
+          "id": 11804,
+          "type": "herokupostgres",
+          "name": "conn_heroku_postgres"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+
+          ]
+        },
+        "database_connection_id": "11804",
+        "schema_name": "ussalesforceorg",
+        "table_name": "task_raw",
+        "create_table": true,
+        "add_columns": true,
+        "column_mappings": [
+          {
+            "field_name": "LastModifiedDate",
+            "column_name": "LastModifiedDate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Type__c",
+            "column_name": "ZTS_US_Type__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_SER_Is_Owner_ABM__c",
+            "column_name": "ZTS_US_SER_Is_Owner_ABM__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_EventCreatedByTrigger__c",
+            "column_name": "ZTS_US_EventCreatedByTrigger__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ReminderDateTime",
+            "column_name": "ReminderDateTime",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Contact_Call_to__c",
+            "column_name": "ZTS_US_Contact_Call_to__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecurrenceRegeneratedType",
+            "column_name": "RecurrenceRegeneratedType",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Sales_Order__c",
+            "column_name": "ZTS_US_Sales_Order__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Initial_Task_Owner__c",
+            "column_name": "ZTS_US_Initial_Task_Owner__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9AgentName__c",
+            "column_name": "Five9__Five9AgentName__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecurrenceInterval",
+            "column_name": "RecurrenceInterval",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9SessionId__c",
+            "column_name": "Five9__Five9SessionId__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_SER_Manager_Name__c",
+            "column_name": "ZTS_US_SER_Manager_Name__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Shipping_Date__c",
+            "column_name": "ZTS_US_Shipping_Date__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Total_Credits_for_Redemption__c",
+            "column_name": "ZTS_US_Total_Credits_for_Redemption__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Status",
+            "column_name": "Status",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_TASK_Waiting_End_Time__c",
+            "column_name": "ZTS_US_TASK_Waiting_End_Time__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "IsDeleted",
+            "column_name": "IsDeleted",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecurrenceType",
+            "column_name": "RecurrenceType",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "IsRecurrence",
+            "column_name": "IsRecurrence",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9TaskType__c",
+            "column_name": "Five9__Five9TaskType__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecurrenceMonthOfYear",
+            "column_name": "RecurrenceMonthOfYear",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9AgentExtension__c",
+            "column_name": "Five9__Five9AgentExtension__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "URL_Name__c",
+            "column_name": "URL_Name__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "PIT_Calendar_ID__c",
+            "column_name": "PIT_Calendar_ID__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Id",
+            "column_name": "Id",
+            "is_merge_key": true
+          },
+          {
+            "field_name": "RecurrenceInstance",
+            "column_name": "RecurrenceInstance",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "DB_Activity_Type__c",
+            "column_name": "DB_Activity_Type__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecurrenceStartDateOnly",
+            "column_name": "RecurrenceStartDateOnly",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9TalkAndHoldTimeInSeconds__c",
+            "column_name": "Five9__Five9TalkAndHoldTimeInSeconds__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_SER_Is_Delegated_Task_Owner__c",
+            "column_name": "ZTS_US_SER_Is_Delegated_Task_Owner__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "WhatId",
+            "column_name": "WhatId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Description",
+            "column_name": "Description",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecurrenceEndDateOnly",
+            "column_name": "RecurrenceEndDateOnly",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "CallType",
+            "column_name": "CallType",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "IsHighPriority",
+            "column_name": "IsHighPriority",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Activity_Type__c",
+            "column_name": "ZTS_US_Activity_Type__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "IsClosed",
+            "column_name": "IsClosed",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9CallType__c",
+            "column_name": "Five9__Five9CallType__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_TASK_SLA_breached__c",
+            "column_name": "ZTS_US_TASK_SLA_breached__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "OwnerId",
+            "column_name": "OwnerId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9DNIS__c",
+            "column_name": "Five9__Five9DNIS__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecordTypeId",
+            "column_name": "RecordTypeId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "isGeneticsTask__c",
+            "column_name": "isGeneticsTask__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Follow_up_date__c",
+            "column_name": "ZTS_US_Follow_up_date__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Product__c",
+            "column_name": "ZTS_US_Product__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Is_Ever_Waiting_On_Customer__c",
+            "column_name": "ZTS_US_Is_Ever_Waiting_On_Customer__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Ship_via__c",
+            "column_name": "ZTS_US_Ship_via__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_TASK_Waiting_Start_Time__c",
+            "column_name": "ZTS_US_TASK_Waiting_Start_Time__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "SystemModstamp",
+            "column_name": "SystemModstamp",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "IsArchived",
+            "column_name": "IsArchived",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_SER_Is_Owner_ISR__c",
+            "column_name": "ZTS_US_SER_Is_Owner_ISR__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Type",
+            "column_name": "Type",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9ANI__c",
+            "column_name": "Five9__Five9ANI__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_SER_Owner_Name__c",
+            "column_name": "ZTS_US_SER_Owner_Name__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Origin__c",
+            "column_name": "ZTS_US_Origin__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "AccountId",
+            "column_name": "AccountId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "CallDisposition",
+            "column_name": "CallDisposition",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9WrapTime__c",
+            "column_name": "Five9__Five9WrapTime__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "CreatedById",
+            "column_name": "CreatedById",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecurrenceActivityId",
+            "column_name": "RecurrenceActivityId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "WhoId",
+            "column_name": "WhoId",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ActivityDate",
+            "column_name": "ActivityDate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9HandleTime__c",
+            "column_name": "Five9__Five9HandleTime__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "CallDurationInSeconds",
+            "column_name": "CallDurationInSeconds",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Priority",
+            "column_name": "Priority",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecurrenceTimeZoneSidKey",
+            "column_name": "RecurrenceTimeZoneSidKey",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_CallRecordId__c",
+            "column_name": "ZTS_US_CallRecordId__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Is_Realized__c",
+            "column_name": "ZTS_US_Is_Realized__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "TaskSubtype",
+            "column_name": "TaskSubtype",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "CreatedDate",
+            "column_name": "CreatedDate",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Dummy__c",
+            "column_name": "Dummy__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Legacy_CRM_ID__c",
+            "column_name": "ZTS_US_Legacy_CRM_ID__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_SER_AutoCreated__c",
+            "column_name": "ZTS_US_SER_AutoCreated__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Campaign__c",
+            "column_name": "ZTS_US_Campaign__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecurrenceDayOfWeekMask",
+            "column_name": "RecurrenceDayOfWeekMask",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9Campaign__c",
+            "column_name": "Five9__Five9Campaign__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_SER_Business_Hour_Duration__c",
+            "column_name": "ZTS_US_SER_Business_Hour_Duration__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Unit__c",
+            "column_name": "ZTS_US_Unit__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_TASK_Waiting_Hour_Duration__c",
+            "column_name": "ZTS_US_TASK_Waiting_Hour_Duration__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Price_List__c",
+            "column_name": "ZTS_US_Price_List__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Product_Number__c",
+            "column_name": "ZTS_US_Product_Number__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Description__c",
+            "column_name": "ZTS_US_Description__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Brands_Detailed__c",
+            "column_name": "ZTS_US_Brands_Detailed__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "IsReminderSet",
+            "column_name": "IsReminderSet",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Call_Status__c",
+            "column_name": "Call_Status__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Order_Origin_Department__c",
+            "column_name": "ZTS_US_Order_Origin_Department__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_SER_ABM_Email__c",
+            "column_name": "ZTS_US_SER_ABM_Email__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Five9__Five9Agent__c",
+            "column_name": "Five9__Five9Agent__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Total__c",
+            "column_name": "Total__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "Subject",
+            "column_name": "Subject",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Sub_Type__c",
+            "column_name": "ZTS_US_Sub_Type__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "CallObject",
+            "column_name": "CallObject",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_SER_Manager_Email__c",
+            "column_name": "ZTS_US_SER_Manager_Email__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "RecurrenceDayOfMonth",
+            "column_name": "RecurrenceDayOfMonth",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_SER_Is_TBM_TaskOwner__c",
+            "column_name": "ZTS_US_SER_Is_TBM_TaskOwner__c",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "LastModifiedById",
+            "column_name": "LastModifiedById",
+            "is_merge_key": false
+          },
+          {
+            "field_name": "ZTS_US_Quantity__c",
+            "column_name": "ZTS_US_Quantity__c",
+            "is_merge_key": false
+          }
+        ],
+        "operation_type": "truncate_and_insert",
+        "batch_size": 1000,
+        "parallel": 1,
+        "single_transaction_per_batch": false,
+        "split_by_field": "LastModifiedDate"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-63d787",
+      "label": "edge-63d787",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-b681ed",
+      "target": "component-066123"
+    }
+  ],
+  "variables": {
+  },
+  "secret_variables": {
+  },
+  "metadata": {
+    "name": "pkg_task_raw_load",
+    "description": "",
+    "flow_type": "dataflow",
+    "version": "1.8",
+    "version_description": ""
+  }
+}

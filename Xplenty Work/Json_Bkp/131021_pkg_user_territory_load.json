@@ -1,0 +1,564 @@
+{
+  "components": [
+    {
+      "select_component": {
+        "id": "component-01a3ab",
+        "name": "expr_user_territory",
+        "alias": "expr_user_territory",
+        "xy": [
+          1120,
+          756
+        ],
+        "fields": [
+          {
+            "name": "Id",
+            "projected_name": "Id"
+          },
+          {
+            "name": "Name",
+            "projected_name": "Name"
+          },
+          {
+            "name": "CreatedById",
+            "projected_name": "CreatedById"
+          },
+          {
+            "name": "ZTS_US_Territory__c",
+            "projected_name": "ZTS_US_Territory__c"
+          },
+          {
+            "name": "LastModifiedDate",
+            "projected_name": "LastModifiedDate"
+          },
+          {
+            "name": "IsDeleted",
+            "projected_name": "IsDeleted"
+          },
+          {
+            "name": "ZTS_US_PrimaryUser__c",
+            "projected_name": "ZTS_US_PrimaryUser__c"
+          },
+          {
+            "name": "Check_Current_User__c",
+            "projected_name": "Check_Current_User__c"
+          },
+          {
+            "name": "LastViewedDate",
+            "projected_name": "LastViewedDate"
+          },
+          {
+            "name": "Territory_with_Last_Name__c",
+            "projected_name": "Territory_with_Last_Name__c"
+          },
+          {
+            "name": "LastReferencedDate",
+            "projected_name": "LastReferencedDate"
+          },
+          {
+            "name": "SystemModstamp",
+            "projected_name": "SystemModstamp"
+          },
+          {
+            "name": "ZTS_US_End_Date__c",
+            "projected_name": "ZTS_US_End_Date__c"
+          },
+          {
+            "name": "Position_External_ID__c",
+            "projected_name": "Position_External_ID__c"
+          },
+          {
+            "name": "ZTS_US_User_Territory_Uniq_Key__c",
+            "projected_name": "ZTS_US_User_Territory_Uniq_Key__c"
+          },
+          {
+            "name": "ZTS_US_Processed__c",
+            "projected_name": "ZTS_US_Processed__c"
+          },
+          {
+            "name": "OwnerId",
+            "projected_name": "OwnerId"
+          },
+          {
+            "name": "ZTS_US_Employee__c",
+            "projected_name": "ZTS_US_Employee__c"
+          },
+          {
+            "name": "ZTS_US_Territory_Name__c",
+            "projected_name": "ZTS_US_Territory_Name__c"
+          },
+          {
+            "name": "ZTS_US_Start_Date__c",
+            "projected_name": "ZTS_US_Start_Date__c"
+          },
+          {
+            "name": "CreatedDate",
+            "projected_name": "CreatedDate"
+          },
+          {
+            "name": "PIT_Is_Active__c",
+            "projected_name": "PIT_Is_Active__c"
+          },
+          {
+            "name": "ZTS_US_ChangeFlag__c",
+            "projected_name": "ZTS_US_ChangeFlag__c"
+          },
+          {
+            "name": "LastModifiedById",
+            "projected_name": "LastModifiedById"
+          },
+          {
+            "name": "INTL_Territory_Id",
+            "projected_name": "INTL_Territory_Id"
+          },
+          {
+            "name": "US_Territory_Id",
+            "projected_name": "US_Territory_Id"
+          },
+          {
+            "name": "US_Owner_Id",
+            "projected_name": "US_Owner_Id"
+          },
+          {
+            "name": "INTL_Owner_Id",
+            "projected_name": "INTL_Owner_Id"
+          },
+          {
+            "name": "'USD'",
+            "projected_name": "O_Currency_ISO_Code"
+          }
+        ]
+      }
+    },
+    {
+      "database_source_component": {
+        "id": "component-23e9c7",
+        "name": "src_db_user_territory",
+        "alias": "src_db_user_territory",
+        "xy": [
+          1120,
+          252
+        ],
+        "connection": {
+          "id": 11804,
+          "type": "herokupostgres",
+          "name": "conn_heroku_postgres"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "Id",
+              "alias": "Id",
+              "data_type": "string"
+            },
+            {
+              "name": "Name",
+              "alias": "Name",
+              "data_type": "string"
+            },
+            {
+              "name": "CreatedById",
+              "alias": "CreatedById",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Territory__c",
+              "alias": "ZTS_US_Territory__c",
+              "data_type": "string"
+            },
+            {
+              "name": "LastModifiedDate",
+              "alias": "LastModifiedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "IsDeleted",
+              "alias": "IsDeleted",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_PrimaryUser__c",
+              "alias": "ZTS_US_PrimaryUser__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "Check_Current_User__c",
+              "alias": "Check_Current_User__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "LastViewedDate",
+              "alias": "LastViewedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "Territory_with_Last_Name__c",
+              "alias": "Territory_with_Last_Name__c",
+              "data_type": "string"
+            },
+            {
+              "name": "LastReferencedDate",
+              "alias": "LastReferencedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "SystemModstamp",
+              "alias": "SystemModstamp",
+              "data_type": "datetime"
+            },
+            {
+              "name": "ZTS_US_End_Date__c",
+              "alias": "ZTS_US_End_Date__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "Position_External_ID__c",
+              "alias": "Position_External_ID__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_User_Territory_Uniq_Key__c",
+              "alias": "ZTS_US_User_Territory_Uniq_Key__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Processed__c",
+              "alias": "ZTS_US_Processed__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "OwnerId",
+              "alias": "OwnerId",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Employee__c",
+              "alias": "ZTS_US_Employee__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Territory_Name__c",
+              "alias": "ZTS_US_Territory_Name__c",
+              "data_type": "string"
+            },
+            {
+              "name": "ZTS_US_Start_Date__c",
+              "alias": "ZTS_US_Start_Date__c",
+              "data_type": "datetime"
+            },
+            {
+              "name": "CreatedDate",
+              "alias": "CreatedDate",
+              "data_type": "datetime"
+            },
+            {
+              "name": "PIT_Is_Active__c",
+              "alias": "PIT_Is_Active__c",
+              "data_type": "boolean"
+            },
+            {
+              "name": "ZTS_US_ChangeFlag__c",
+              "alias": "ZTS_US_ChangeFlag__c",
+              "data_type": "string"
+            },
+            {
+              "name": "LastModifiedById",
+              "alias": "LastModifiedById",
+              "data_type": "string"
+            }
+          ]
+        },
+        "database_connection_id": "11804",
+        "access_mode": "table",
+        "schema_name": "ussalesforceorg",
+        "table_name": "user_territory_raw",
+        "where_clause": "",
+        "query": "",
+        "split_by_column_name": "",
+        "parallel": 1,
+        "before_action": "none"
+      }
+    },
+    {
+      "database_source_component": {
+        "id": "component-135130",
+        "name": "src_db_user",
+        "alias": "src_db_user",
+        "xy": [
+          1008,
+          420
+        ],
+        "connection": {
+          "id": 11804,
+          "type": "herokupostgres",
+          "name": "conn_heroku_postgres"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "us_id",
+              "alias": "US_Owner_Id",
+              "data_type": "string"
+            },
+            {
+              "name": "int_id",
+              "alias": "INTL_Owner_Id",
+              "data_type": "string"
+            }
+          ]
+        },
+        "database_connection_id": "11804",
+        "access_mode": "table",
+        "schema_name": "ussalesforceorg",
+        "table_name": "user_map",
+        "where_clause": "\"intl_isactive\"!='FALSE'",
+        "query": "",
+        "split_by_column_name": "",
+        "parallel": 1,
+        "before_action": "none"
+      }
+    },
+    {
+      "join_component": {
+        "id": "component-edaf04",
+        "name": "jnr_user",
+        "alias": "jnr_user",
+        "xy": [
+          1120,
+          588
+        ],
+        "join_type": "left",
+        "optimization_type": "default",
+        "relations": [
+          {
+            "fields": [
+              "ZTS_US_Employee__c"
+            ]
+          },
+          {
+            "fields": [
+              "US_Owner_Id"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "database_source_component": {
+        "id": "component-2db9e8",
+        "name": "src_db_territory",
+        "alias": "src_db_territory",
+        "xy": [
+          1344,
+          252
+        ],
+        "connection": {
+          "id": 11804,
+          "type": "herokupostgres",
+          "name": "conn_heroku_postgres"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+            {
+              "name": "Id",
+              "alias": "INTL_Territory_Id",
+              "data_type": "string"
+            },
+            {
+              "name": "us_org_id__c",
+              "alias": "US_Territory_Id",
+              "data_type": "string"
+            }
+          ]
+        },
+        "database_connection_id": "11804",
+        "access_mode": "table",
+        "schema_name": "intlsalesforceorg",
+        "table_name": "territory",
+        "where_clause": "",
+        "query": "",
+        "split_by_column_name": "",
+        "parallel": 1,
+        "before_action": "none"
+      }
+    },
+    {
+      "join_component": {
+        "id": "component-0ebe33",
+        "name": "jnr_territory",
+        "alias": "jnr_territory",
+        "xy": [
+          1232,
+          420
+        ],
+        "join_type": "inner",
+        "optimization_type": "default",
+        "relations": [
+          {
+            "fields": [
+              "ZTS_US_Territory__c"
+            ]
+          },
+          {
+            "fields": [
+              "US_Territory_Id"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "salesforce_destination_component": {
+        "id": "component-984047",
+        "name": "tgt_db_user_territory",
+        "alias": "tgt_db_user_territory",
+        "xy": [
+          1148,
+          980
+        ],
+        "connection": {
+          "id": 10791,
+          "type": "salesforce",
+          "name": "conn_sf_intltgt"
+        },
+        "schema": {
+          "valid": true,
+          "fields": [
+
+          ]
+        },
+        "cloud_storage_connection_id": "10791",
+        "object_name": "ZTS_EU_Position__c",
+        "operation_type": "upsert",
+        "id_field": "US_Org_Id__c",
+        "batch_size": 1000,
+        "max_errors": 0,
+        "column_mappings": [
+          {
+            "column_name": "US_Org_Id__c",
+            "field_name": "Id",
+            "field_type": "STRING"
+          },
+          {
+            "column_name": "ZTS_EU_Territory__c",
+            "field_name": "INTL_Territory_Id",
+            "field_type": "REFERENCE",
+            "relationship_name": "ZTS_EU_Territory__r",
+            "relationship_field_type": "ID",
+            "is_reference_key": false,
+            "relationship_field_name": "Id"
+          },
+          {
+            "column_name": "ZTS_PrimaryUser__c",
+            "field_name": "ZTS_US_PrimaryUser__c",
+            "field_type": "BOOLEAN"
+          },
+          {
+            "column_name": "ZTS_End_Date__c",
+            "field_name": "ZTS_US_End_Date__c",
+            "field_type": "DATE"
+          },
+          {
+            "column_name": "ZTS_User_Territory_Uniq_Key__c",
+            "field_name": "ZTS_US_User_Territory_Uniq_Key__c",
+            "field_type": "STRING"
+          },
+          {
+            "column_name": "ZTS_Processed__c",
+            "field_name": "ZTS_US_Processed__c",
+            "field_type": "BOOLEAN"
+          },
+          {
+            "column_name": "ZTS_EU_Employee__c",
+            "field_name": "INTL_Owner_Id",
+            "field_type": "REFERENCE",
+            "relationship_name": "ZTS_EU_Employee__r",
+            "relationship_field_type": "ID",
+            "is_reference_key": false,
+            "relationship_field_name": "Id"
+          },
+          {
+            "column_name": "ZTS_Start_Date__c",
+            "field_name": "ZTS_US_Start_Date__c",
+            "field_type": "DATE"
+          },
+          {
+            "column_name": "ZTS_ChangeFlag__c",
+            "field_name": "ZTS_US_ChangeFlag__c",
+            "field_type": "PICKLIST"
+          },
+          {
+            "column_name": "CurrencyIsoCode",
+            "field_name": "O_Currency_ISO_Code",
+            "field_type": "PICKLIST"
+          }
+        ],
+        "database_connection_id": "10791"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "id": "edge-234387",
+      "label": "edge-234387",
+      "order": 1,
+      "source_index": 0,
+      "source": "component-135130",
+      "target": "component-edaf04"
+    },
+    {
+      "id": "edge-2f8c0a",
+      "label": "edge-2f8c0a",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-23e9c7",
+      "target": "component-0ebe33"
+    },
+    {
+      "id": "edge-b588b1",
+      "label": "edge-b588b1",
+      "order": 1,
+      "source_index": 0,
+      "source": "component-2db9e8",
+      "target": "component-0ebe33"
+    },
+    {
+      "id": "edge-12183c",
+      "label": "edge-12183c",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-0ebe33",
+      "target": "component-edaf04"
+    },
+    {
+      "id": "edge-3a707b",
+      "label": "edge-3a707b",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-edaf04",
+      "target": "component-01a3ab"
+    },
+    {
+      "id": "edge-8e58fe",
+      "label": "edge-8e58fe",
+      "order": 0,
+      "source_index": 0,
+      "source": "component-01a3ab",
+      "target": "component-984047"
+    }
+  ],
+  "variables": {
+    "_HTTP_REQUEST_MAX_RETRIES": "1"
+  },
+  "secret_variables": {
+  },
+  "metadata": {
+    "name": "pkg_user_territory_load",
+    "description": "",
+    "flow_type": "dataflow",
+    "version": "1.11",
+    "version_description": ""
+  }
+}
